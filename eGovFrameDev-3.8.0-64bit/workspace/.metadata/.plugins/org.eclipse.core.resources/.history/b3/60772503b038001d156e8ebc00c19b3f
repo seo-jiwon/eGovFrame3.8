@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="Sample">
+
+	<typeAlias  alias="egovMap" type="egovframework.rte.psl.dataaccess.util.EgovMap"/>
+	<typeAlias  alias="searchVO" type="egovframework.example.sample.service.SampleDefaultVO"/>
+	<typeAlias  alias="user" type="egovframework.example.sample.service.UserVo"/>
+
+	<resultMap id="sample" class="egovframework.example.sample.service.SampleVO">
+		<result property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="description" column="description"/>
+		<result property="useYn" column="use_yn"/>
+		<result property="regUser" column="reg_user"/>
+	</resultMap>
+    <resultMap id="ProductList" class="egovframework.example.sample.service.ProductListVo">
+		<result property="PRDT_CD" column="PRDT_CD"/>
+		<result property="PRDT_DTL_CD" column="PRDT_DTL_CD"/>
+		<result property="STORE_ID" column="STORE_ID"/>
+		<result property="CATEG_CD" column="CATEG_CD"/>
+		<result property="PRDT_NM" column="PRDT_NM"/>
+		<result property="MAKR_NM" column="MAKR_NM"/>
+		<result property="PRDT_INFO" column="PRDT_INFO"/>
+		<result property="STNDRD" column="STNDRD"/>
+		<result property="SEL_PRICE" column="SEL_PRICE"/>
+		<result property="SALE_PRICE" column="SALE_PRICE"/>
+		<result property="OUT_AMT" column="OUT_AMT"/>
+		<result property="OUT_UNIT" column="OUT_UNIT"/>
+		<result property="SOLDOUT_AT" column="SOLDOUT_AT"/>
+		<result property="RE_SALE_DT" column="RE_SALE_DT"/>
+		<result property="PRDT_IMG" column="PRDT_IMG"/>
+		
+		
+	</resultMap>
+	<insert id="sampleDAO.insertSample">
+		<![CDATA[
+			INSERT INTO SAMPLE 
+				( ID
+				  , NAME
+				  , DESCRIPTION
+				  , USE_YN
+				  , REG_USER )
+			VALUES ( #id#
+				  , #name#
+				  , #description#
+				  , #useYn#
+				  , #regUser# )
+		]]>
+	</insert>
+	
+	<update id="sampleDAO.updateSample">
+		<![CDATA[
+			UPDATE SAMPLE
+			SET ID=#id#
+				, NAME=#name#
+				, DESCRIPTION=#description#
+				, USE_YN=#useYn#
+			WHERE ID=#id#
+		]]>
+	</update>
+	
+	<delete id="sampleDAO.deleteSample">
+		<![CDATA[
+			DELETE FROM SAMPLE 
+			WHERE ID=#id#
+		]]>
+	</delete>
+    
+    <select id="sampleDAO.selectSample" resultMap="sample">
+        <![CDATA[
+            SELECT
+                ID, NAME, DESCRIPTION, USE_YN, REG_USER
+            FROM SAMPLE 
+            WHERE ID=#id#
+        ]]>
+    </select>
+	
+	<select id="sampleDAO.selectSampleList" parameterClass="searchVO" resultClass="egovMap">
+
+			SELECT
+				ID, NAME, DESCRIPTION, USE_YN, REG_USER
+			FROM SAMPLE
+			WHERE 1=1
+			<isEqual prepend="AND" property="searchCondition" compareValue="0">
+				ID LIKE '%' || #searchKeyword# || '%'
+			</isEqual>
+			<isEqual prepend="AND" property="searchCondition" compareValue="1">
+				NAME LIKE '%' || #searchKeyword# || '%'
+			</isEqual>
+			ORDER BY ID DESC
+			LIMIT #recordCountPerPage# OFFSET #firstIndex#		
+	</select>
+	
+	<select id="sampleDAO.selectSampleListTotCnt" parameterClass="searchVO" resultClass="int">
+
+			SELECT COUNT(*) totcnt
+			FROM SAMPLE
+			WHERE 1=1
+			<isEqual prepend="AND" property="searchCondition" compareValue="0">
+				ID LIKE '%' || #searchKeyword# || '%'
+			</isEqual>
+			<isEqual prepend="AND" property="searchCondition" compareValue="1">
+				NAME LIKE '%' || #searchKeyword# || '%'
+			</isEqual>
+	</select>
+	<!-- 상품 검색 SQL -->
+		<select id="sampleDAO.selectProduct" resultMap="ProductList">
+			SELECT 
+				PM.PRDT_CD ,
+				PD.PRDT_DTL_CD ,
+				PM.STORE_ID ,
+				PM.CATEG_CD ,
+				PM.PRDT_NM ,
+				PM.MAKR_NM ,
+              	PM.PRDT_INFO , 
+				PD.STNDRD ,
+				PD.MODEL_NM ,
+				PD.SEL_PRICE ,
+				PD.SALE_PRICE ,
+		   	    PD.OUT_AMT,
+		   	    PD.OUT_UNIT,
+				PD.SOLDOUT_AT,
+				PD.RE_SALE_DT,
+				PM.PRDT_IMG
+			FROM   PRDT_MST PM,
+			       PRDT_DTL PD
+			 WHERE	PM.PRDT_CD = PD.PRDT_CD	
+				AND	PM.STORE_ID = PD.STORE_ID
+				AND	PM.USE_YN ='Y'
+				AND	PD.USE_YN ='Y'
+			
+				AND(			
+								PM.PRDT_NM LIKE CONCAT('%',#{searchWord}#,'%')
+						OR		PM.MAKR_NM LIKE CONCAT('%',#{searchWord}#,'%')
+						OR		PD.STNDRD LIKE CONCAT('%',#{searchWord}#'%')
+						OR		PD.MODEL_NM LIKE CONCAT('%',#{searchWord}#,'%')
+				)
+		
+			
+	</select>
+
+</sqlMap>

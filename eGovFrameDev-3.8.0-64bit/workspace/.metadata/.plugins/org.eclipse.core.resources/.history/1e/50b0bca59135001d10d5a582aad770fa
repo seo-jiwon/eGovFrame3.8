@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+		var user = new Object();
+		user.name =
+		
+		var jsonString = JSON.stringify(user);
+		console.log(jsonString);
+			
+		$.ajax({
+			url:'./ajaxProcess.do',
+			type:'post',
+			data:{"jsonString":jsonString},
+			success: function(result) {
+				//서버로부터 정상적으로 응답이 왔을때 실행
+				alert("success! \n" + result);
+				//result를 obj객체로 파싱하여 사용
+				obj = jQuery.parseJSON(result);
+				console.log(obj.name);
+				console.log(obj.age);
+				console.log(obj.gender);
+			},
+			error: function(err) {
+				//서버로부터 응답이 정상적으로 처리되지 못했을 때 실행
+				alert("error!:" + err);
+			}
+		});
+	</script>
+</head>
+<body>
+    
+</body>
+</html>

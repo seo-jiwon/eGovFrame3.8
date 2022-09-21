@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://maven.egovframe.kr:8080/update_3.8_test/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1558428864424'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='4187157396'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='37'>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.verification.kw3c.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.verification.kw3c.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.ide' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.ide_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.rte.rdt.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.rte.rdt.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.imp.codegen.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.imp.codegen.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.bdev.imp.confmngt' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.bdev.imp.confmngt_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.tst.tctemplates' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.tst.tctemplates_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.commngt' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.commngt_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.dbio' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.dbio_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.imp.amateras.uml.feature' version='1.3.4.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.imp.amateras.uml.feature_1.3.4.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.java.amateras.db' version='1.0.9.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/net.java.amateras.db_1.0.9.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.codegen.template' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.codegen.template_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.bdev.imp.batchnature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.bdev.imp.batchnature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.verification.kw3c' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.verification.kw3c_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.imp.ide.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.imp.ide.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.hdev.imp.ide' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.hdev.imp.ide_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.mdev.imp.commngt' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.mdev.imp.commngt_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.java.amateras.umleditor.java' version='1.3.4.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/net.java.amateras.umleditor.java_1.3.4.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.imp.dbio.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.imp.dbio.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.imp.codegen.templates' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.imp.codegen.templates_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.codegen.model' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.codegen.model_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.confmngt' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.confmngt_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.core' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.core_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.hdev.imp.ide.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.hdev.imp.ide.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.java.amateras.xstream' version='1.3.4.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/net.java.amateras.xstream_1.3.4.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.bdev.imp.ide' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.bdev.imp.ide_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.tst.tctemplates' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.tst.tctemplates_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.rte.rdt' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.rte.rdt_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.mdev.imp.confmngt' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.mdev.imp.confmngt_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.java.amateras.umleditor' version='1.3.4.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/net.java.amateras.umleditor_1.3.4.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.dev.imp.codegen.template.templates' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.dev.imp.codegen.template.templates_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.bdev.imp.ide.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.bdev.imp.ide.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.imp.core.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.imp.core.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.bdev.tst' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.bdev.tst_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.mdev.imp.ide.feature' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.mdev.imp.ide.feature_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.bdev.imp.batch' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.bdev.imp.batch_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='egovframework.dev.imp.amateras.erd.feature' version='1.0.9.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/features/egovframework.dev.imp.amateras.erd.feature_1.0.9.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='egovframework.mdev.imp.ide' version='3.8.0.201905211730'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://maven.egovframe.kr:8080/update_3.8_test/plugins/egovframework.mdev.imp.ide_3.8.0.201905211730.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

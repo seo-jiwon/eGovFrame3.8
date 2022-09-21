@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[search 페이지]</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+  function getSend(urladdr,param){
+		var temp;
+		    $.ajax({
+	          type:'post',
+	          headers:{
+	              "Content-Type":"application/json"
+	          },
+	          async :false,// ajax를 동기화(순서대로) 처리해야하는 경우 true로하거나 기술하지 않으면 비동기로 작동한다.
+	          url:urladdr,
+	          data:param,
+	          dataType:"json",
+	          success : function(result){
+					temp= result;  
+			  },
+	      });
+	      return temp;
+	}
+	</script>
+</head>
+<body>
+    <h2>검색</h2>
+    <form action='/'>
+        <input type='text' placeholder="검색어를 입력하세요" id="inputSearch"/>
+	    <input type="submit" value="검색"/><br/><br/>
+
+	    <textarea cols="100" rows="30" readonly></textarea>
+    </form>
+
+</body>
+<script>
+    var user = {};
+	
+    user["searchWord"] = "드릴";
+  
+
+	var obj = new Object(); //컨트롤러의 리턴값(result)을 저장할 객체
+
+	
+		var jsonString = JSON.stringify(user);
+			console.log(jsonString);
+		
+			var revdata = getSend('/ajaxProcess.do',jsonString);
+			console.log(revdata);
+			alert(revdata[0]['PRDT_NM']);
+
+
+</script>
+</html>

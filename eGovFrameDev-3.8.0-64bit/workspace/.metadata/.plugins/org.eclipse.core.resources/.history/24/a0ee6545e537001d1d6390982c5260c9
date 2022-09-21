@@ -1,0 +1,29 @@
+package egovframework.example.sample.service;
+
+import java.io.Serializable;
+
+public class ProductListVo implements Serializable {
+	String PRDT_CD = "";
+	String PRDT_DTL_CD = ""; 
+	String STORE_ID = "";
+	String CATEG_CD = "";
+	String PRDT_NM = "";
+	String MAKR_NM = "";
+	String PRDT_INFO = "";
+	String STNDRD = "";
+	String MODEL_NM = "";
+	String SEL_PRICE = "";
+	String SALE_PRICE = "";
+	String OUT_AMT = "";
+	String OUT_UNIT = "";
+	String SOLDOUT_AT = "";
+	String RE_SALE_DT = "";
+	String PRDT_IMG = "";
+	String LEV3_CD = "";
+	String LEV3_NM = "";
+	String LEV4_CD = "";
+	String LEV4_NM = "";
+	String LEV5_CD = "";
+	String LEV5_NM = "";
+
+}

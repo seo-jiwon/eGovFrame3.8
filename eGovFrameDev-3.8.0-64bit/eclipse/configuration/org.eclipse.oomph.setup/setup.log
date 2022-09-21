@@ -1,0 +1,80 @@
+[2018-11-27 09:58:20] Executing startup tasks
+[2018-11-27 09:58:21] Java(TM) SE Runtime Environment 1.8.0_162-b12
+[2018-11-27 09:58:21] Product self.product.version
+[2018-11-27 09:58:21] Workspace D:\Devs\eGovInstall\eclipse-jee-oxygen-3a-win32-x86_64\workspace
+[2018-11-27 09:58:21] Bundle org.eclipse.oomph.setup 1.8.0.v20170408-0745, build=3059, branch=2161405b80cf99ed791602ba56cdf44084f5ca43
+[2018-11-27 09:58:21] Bundle org.eclipse.oomph.setup.core 1.8.0.v20170531-0903, build=3059, branch=2161405b80cf99ed791602ba56cdf44084f5ca43
+[2018-11-27 09:58:21] Bundle org.eclipse.oomph.setup.p2 1.8.0.v20170318-0419, build=3059, branch=2161405b80cf99ed791602ba56cdf44084f5ca43
+[2018-11-27 09:58:21] Performing Preference /instance/com.android.ide.eclipse.adt/com.android.ide.eclipse.adt.sdk = D:\Devs\eGovEdu\eGovFrame-3.7.0\bin\android-sdk-windows
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.core.resources/encoding = UTF-8
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.layout = 2
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.librariesnode = true
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.api.tools/API_USE_SCAN_LOCATION = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/additional_locations = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/checkedPlugins = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/checkedVersionPlugins = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/external_features = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/implicit_dependencies = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.arch = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.nl = 
+[2018-11-27 09:58:21] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.os = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.ws = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/pooled_bundles = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/pooled_urls = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/program_args = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/target.profile = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/target_mode = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/target_platform_realization = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/vm_args = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.core/vm_launcher_ini = 
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.ds.annotations/enabled = false
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.ds.annotations/generateBundleActivationPolicyLazy = true
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.ds.annotations/path = OSGI-INF
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.ds.annotations/validationErrorLevel = error
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.ds.annotations/validationErrorLevel.missingImplicitUnbindMethod = error
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.launching/Preferences.MainPage.runtimeWorkspaceLocation = ${workspace_loc}/../runtime-EclipseApplication
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.launching/Preferences.MainPage.runtimeWorkspaceLocationIsContainer = false
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.ui/Preferences.MainPage.overwriteBuildFilesOnExport = prompt
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.pde.ui/Preferences.MainPage.showTargetStatus = true
+[2018-11-27 09:58:22] Performing Preference /instance/org.eclipse.team.svn.core/synch_info/contigous = true
+[2018-11-27 09:58:22] 
+[2018-11-27 13:45:21] Executing startup tasks
+[2018-11-27 13:45:22] Java(TM) SE Runtime Environment 1.8.0_162-b12
+[2018-11-27 13:45:22] Product self.product.version
+[2018-11-27 13:45:22] Workspace D:\Devs\eGovInstall\eclipse-jee-oxygen-3a-win32-x86_64\workspace
+[2018-11-27 13:45:22] Bundle org.eclipse.oomph.setup 1.8.0.v20170408-0745, build=3059, branch=2161405b80cf99ed791602ba56cdf44084f5ca43
+[2018-11-27 13:45:22] Bundle org.eclipse.oomph.setup.core 1.8.0.v20170531-0903, build=3059, branch=2161405b80cf99ed791602ba56cdf44084f5ca43
+[2018-11-27 13:45:22] Bundle org.eclipse.oomph.setup.p2 1.8.0.v20170318-0419, build=3059, branch=2161405b80cf99ed791602ba56cdf44084f5ca43
+[2018-11-27 13:45:22] Performing Preference /instance/com.android.ide.eclipse.adt/com.android.ide.eclipse.adt.sdk = D:\Devs\eGovEdu\eGovFrame-3.7.0\bin\android-sdk-windows
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.core.resources/encoding = UTF-8
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.layout = 2
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.librariesnode = true
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.api.tools/API_USE_SCAN_LOCATION = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/additional_locations = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/checkedPlugins = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/checkedVersionPlugins = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/external_features = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/implicit_dependencies = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.arch = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.nl = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.os = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/org.eclipse.pde.ui.ws = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/pooled_bundles = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/pooled_urls = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/program_args = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/target.profile = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/target_mode = 
+[2018-11-27 13:45:22] Performing Preference /instance/org.eclipse.pde.core/target_platform_realization = 
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.core/vm_args = 
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.core/vm_launcher_ini = 
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.ds.annotations/enabled = false
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.ds.annotations/generateBundleActivationPolicyLazy = true
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.ds.annotations/path = OSGI-INF
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.ds.annotations/validationErrorLevel = error
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.ds.annotations/validationErrorLevel.missingImplicitUnbindMethod = error
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.launching/Preferences.MainPage.runtimeWorkspaceLocation = ${workspace_loc}/../runtime-EclipseApplication
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.launching/Preferences.MainPage.runtimeWorkspaceLocationIsContainer = false
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.ui/Preferences.MainPage.overwriteBuildFilesOnExport = prompt
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.pde.ui/Preferences.MainPage.showTargetStatus = true
+[2018-11-27 13:45:23] Performing Preference /instance/org.eclipse.team.svn.core/synch_info/contigous = true
+[2018-11-27 13:45:23] 
